@@ -1,0 +1,26 @@
+[package]
+name = "rusty-sounds"
+version = "0.1.0"
+authors = ["Sebastián Magrí <sebasmagri@gmail.com>"]
+
+[dependencies]
+futures = "0.1"
+gdk = "0.5"
+tokio-core = "0.1"
+
+[dependencies.dbus]
+git = "https://github.com/brson/dbus-rs.git"
+branch = "tokio"
+
+[dependencies.gtk]
+version = "0.1"
+features = ["v3_16"]
+
+[dependencies.relm]
+git = "https://github.com/antoyo/relm.git"
+
+[dependencies.relm-derive]
+git = "https://github.com/antoyo/relm.git"
+
+[dependencies.relm-attributes]
+git = "https://github.com/antoyo/relm.git"
